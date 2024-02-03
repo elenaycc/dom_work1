@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+   <h1 >başlık</h1> 
+
+   <div id="div1">
+    <p id="1">lalaluna.</p>
+    <p id="girilenMetinBolumu"></p>
+    <button onclick="guncelle()">button</button>
+   </div>
+
+<ul id="UL">
+<li>a</li>
+<li>b</li>
+<li>c</li>
+</ul>
+<p id="olaydelegasyon"></p>
+
+
+<form id="metinFormu">
+   <label for="metinGirisi">Metin Girin: </label> 
+   <input type="text" id="metinGirisi" name="metinGirisi">
+   <button type="button" onclick="girilenMetniGoster()">Göster</button>
+</form>
+<button onclick="elemanıSil()">elemanıSil</button>
+
+<form id="login">
+    <label for="username">Kullanıcı Adı:</label>
+    <input type="text" id="username" name="username" >
+
+    <label for="password">Şifre:</label>
+    <input type="password" id="password" name="password" >
+
+    <button type="button" onclick="giris()">Giriş Yap</button>
+</form>
+
+
+<script src="index.js"></script>
+</body>
+</html>
